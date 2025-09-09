@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Module Name}{1}{section.1}
+\contentsline {section}{\numberline {2}Lecturers}{1}{section.2}
+\contentsline {section}{\numberline {3}How to reach us}{1}{section.3}
+\contentsline {section}{\numberline {4}Learning Technologies}{2}{section.4}
+\contentsline {section}{\numberline {5}Module objectives /\ Learning outcomes}{3}{section.5}
+\contentsline {section}{\numberline {6}Assessment Breakdown}{4}{section.6}
+\contentsline {subsection}{\numberline {6.1}Continuous Assessment (100\%) }{4}{subsection.6.1}
+\contentsline {section}{\numberline {7}Academic Integrity}{5}{section.7}
+\contentsline {section}{\numberline {8}Engagement in the module and Time Management}{6}{section.8}
+\contentsline {section}{\numberline {9}Netiquette and Decorum}{6}{section.9}
+\contentsline {subsection}{\numberline {9.1}Netiquette}{6}{subsection.9.1}
+\contentsline {section}{\numberline {10}Organizing yourself}{9}{section.10}
+\contentsline {subsection}{\numberline {10.1}Organisation of your labtop/cloud storage}{9}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Suggested Filing System}{9}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Time Management}{10}{subsection.10.3}

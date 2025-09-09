@@ -1,0 +1,378 @@
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{supertabular}
+\usepackage[lastexercise,answerdelayed]{exercise}
+\usepackage[table]{xcolor}
+\usepackage{todonotes}
+\usepackage{multicol}
+
+% for exercise 
+%% Change this for title information 
+\pagenumbering{roman}
+\newcommand\ExTitle{\ Course Outline and Essential Information}
+\author{Dr Siobh\'an Drohan, Mair\'ead Meagher, W.I.T}
+
+\newcommand\fullExTitle{Programming Fundamentals 1 \\Semester 1 - 2022- 2023}
+\newcommand\footerExTitle{\ExTitle -\ Programming Fundamentals 1}
+
+\pagestyle{fancy}
+\fancyhead{} % clear all header fields
+\renewcommand{\headrulewidth}{0pt} % no line in header area
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footerExTitle} % other info in "inner" position of footer line
+
+%\usepackage[mathrm,colour,cntbysection]{czt}
+
+\begin{document}
+\begin{Huge}
+	\begin{center}
+	\fullExTitle \\
+    \vspace{1cm}
+    Course Outline and Essential Information
+    \vspace{.1cm}
+    \end{center}
+\end{Huge}
+\vspace{1.5cm}
+\begin{center}
+    \begin{tabular}{|c |  c | }
+    \hline
+    \multicolumn{2}{|c|}{Module Lecturers} \\
+    \hline
+    \includegraphics[width=1.5in]{img/siobhan.png} &          \includegraphics[width=1.5in]{img/mairead.png} \\ 
+
+       Dr Siobh\'an Drohan, & Mair\'ead Meagher  \\  
+       \href{mailto:siobhan.drohan@setu.ie}{siobhan.drohan@setu.ie} & \href{mailto:mairead.meagher@setu.ie}{mairead.meagher@setu.ie} \\
+  
+    \hline
+    \multicolumn{2}{|c|}{Department of Computing and Mathematics} \\
+     \hline
+
+  
+    \end{tabular}
+\end{center}
+
+\vspace{-.5cm}
+    \begin{figure}[h]
+    
+        \centering
+        \includegraphics[width=3in]{img/RGB.png}
+    \end{figure}
+\thispagestyle{empty} 
+\pagebreak
+\tableofcontents
+\thispagestyle{empty} 
+\pagebreak
+\pagenumbering{arabic}
+\section{Module Name}   
+Programming  Fundamentals 1 \\
+\section{Lecturers}
+Dr Siobh\'an Drohan, \href{mailto:siobhan.drohan@setu.ie}{siobhan.drohan@setu.ie}, Lecturer in Department of Computing and Mathematics.\\
+Mair\'ead Meagher, \href{mailto:mairead.meagher@setu.ie}{mairead.meagher@setu.ie}, Lecturer in Department of Computing and Mathematics.\\
+\section{How to reach us}
+\begin{itemize}
+    \item The quickest way to reach us  is via Slack. Please join the Programming Fundamentals 1 Slack workspace \ \href{https://join.slack.com/t/progfund2022-2023/shared_invite/zt-1g4rdcb3r-kbRw3StjvNQ3EqaA3Mdz_g}{here}. 
+    We  will be using this a main form of 'outside class' communication for this module. If you have a general query, please use the \textbf{\#general} channel. 
+    If you need to contact us directly, please DM rather than using public channels. You should  normally contact the lecturer that you see face-to-face about most matters (i.e. either Maire\'ad or Siobh\'an) but feel free to copy us both. 
+    \item You can also reach us  via email: \href{mailto:siobhan.drohan@setu.ie}{siobhan.drohan@setu.ie}   and or \href{mailto:mairead.meagher@setu.ie}{mairead.meagher@setu.ie}. 
+    \item We are available during work hours from Monday to Friday, 9am to 5pm. You can email/Slack us outside of these hours and we will reply as soon as we can, 
+but always within three days.(If this does not happen, assume your contact has gone into spam etc. and please re-contact us.) When emailing us, please indicate what module you are taking as well as the nature of your query in the 
+subject line, and do not forget to use an appropriate greeting and sign off. It’s important to be polite and to treat one another with 
+respect; let’s start as we mean to go on.
+   
+\end{itemize}
+\pagebreak
+\section{Learning Technologies}
+\begin{itemize}
+\item All lectures and labs  will happen in person as per timetable.
+
+\item \textbf{Moodle} - our learning management system(used all over WIT), where you can find links to the notes, and where online exams are curated. The link to this course is \href{https://moodle.wit.ie/course/view.php?id=184953}{here}.  
+Each week you will be given a list of activities to have done before the class and 
+a list of activities to have done before the next week. See Figure \ref{fig:todo}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=2in]{img/week-todo.png}
+    \caption{Example of a weekly activity in Moodle}
+    \label{fig:todo}
+\end{figure}
+\item \textbf{tutors\footnote{To use tutors, you need to have a GitHub account. (https://github.com/)}} 
+ - This static website will hold all the notes, labs and links to videos. There will be a pre-recorded lecture associated with each lecture. See Figure \ref{tutors}.
+This site is organised by topic,as opposed to Moodle which is organised by week(by linking to, among other things,  the relevant tutors topic).
+\begin{figure}[h]
+\centering
+\includegraphics[width=.6\textwidth]{img/proc-tutors.png}
+\caption{Example of tutors website}
+\label{tutors}
+\end{figure}
+
+There are a number of visual themes available across the site.  See Figure \ref{visual}.
+Of particular note, there is a font which is dyslexia-friendly. This is marked on the diagram. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=.6\textwidth]{img/v-theme.png}
+\caption{Visual themes in tutors}
+\label{visual}
+\end{figure}
+\pagebreak
+\item \textbf{Zoom} -   If, for some reason, we need to use Zoom for remote working, we will generally send the Zoom link via the Slack channel. 
+
+
+\end{itemize}
+
+
+\section{Module objectives /\ Learning outcomes}
+On completion of this module students should be able to: 
+\begin{enumerate}
+   \item Apply core problem solving approaches suitable to the programming discipline to build algorithms.
+   \item Write small applications using standard sequence, conditional and iterative control structures.
+   \item Modify and expand small applications.
+   \item Write small applications that use simple UI, computation and data structures.
+   \item Develop techniques to effectively test, debug and document small applications.
+   \item Analyse and explain how the above applications work.
+   \item Write a simple animation or interactive game using \textit{processing.org}.
+   \item Write a simple object-oriented program using the \textit{IntelliJ} IDE.
+\end{enumerate}
+The full module descriptor is available on the Introduction page on Moodle.
+\textbf{ \textit{Note:}} We do not expect you to have \textbf{any} prior experience of programming, either in Java or any other language. 
+\pagebreak
+
+For the first five topics, we will be using Java, and using the \textit{processing.org}. We will then move to using \textit{IntelliJ}. In both cases, we will be programming using the Java  programming language. 
+\textit{processing.org} is a development environment which uses Java and also facilitates the writing of animations. We introduce the basics of programming using these animations. 
+Having being introduced to the basics of programming, 
+we then move onto using a more 'pure Java' Integrated Development Environment (IDE). We introduce the using of Object-oriented features in Java using \textit{IntelliJ}. 
+We will use \textit{IntelliJ} for the remainder of this module, and we will also continue to use it in the subsequent 
+'Programming Fundamentals 2' module which you we will visit in Semester 2. 
+
+Note that note that both \textit{processing.org}   and \textit{IntelliJ} are Open Source and thus free to use. Details of how to download them will be in the labs before we use them. 
+\section{Assessment Breakdown} 
+The asessment in this module is \textbf{100\%} Continuous Assessment made up of two  assignments. There will be no final examination in this module. 
+\subsection{Continuous Assessment (100\%) }
+Your module assessment is is made up of:  
+    \begin{itemize}
+        \item Assignment 1 - 40\%. You will be asked to write an animation/ simple game of your choice using \textit{procesing.org}
+        You wll be asked to use certain (specified) basic structures and your overall mark will take in the level of 
+        complexity of the submitted program.
+        \item Assigment 2 - 60\%. Having moved from \textit{processing.org} to \textit{IntelliJ}, 
+        you will be asked to solve a problem using classes, methods and arrays. The problem will be fully specified and you will be asked to implement it in \textit{Java} using the \textit{IntelliJ} Integrated Development Environment.
+    \end{itemize}
+
+  
+    \begin{table}
+        \begin{center}
+    \begin{tabular}{|c |  c  | c | }
+    \hline
+   
+     \rowcolor{red!60}
+     \textbf{Assignment}& Assignment 1  & Assignment 2  \\  
+     \rowcolor{red!30}
+     Week No. & End of Reading Week &  10   \\ 
+      \hline
+    
+     \rowcolor{red!30}
+     \hline
+     \textbf{Deadline} & 18:00, Sunday &  18:00, Friday  \\ 
+ 
+     \rowcolor{red!30}
+    &  6/11/22& 9/12/22  \\ 
+     \hline
+     \rowcolor{red!10}
+     \textbf{Interview} &Week 6/7& Week 11 \\ 
+     \hline
+     \rowcolor{red!40}
+     \textbf{Percentage} &  40\% & 60\%  \\ 
+     \hline
+ 
+  
+    \end{tabular}
+    \caption{Assignment Schedule}
+    \label{tab:ass-schedule}   
+\end{center}
+\end{table}
+
+
+
+
+In the case of the first assignment, you will get your marks back as soon as is possible, but usually within a week. 
+If you are wondering why you got a particular mark, \textbf{always} ask us. Our marking schemes are very comprehensive and 
+we are happy to go through the breakdowns with you. 
+We don't give this comprehensive feedback by default to speed up the return of the marks, but are happy to engage with you  about them later. 
+
+In the case of the second assignment, the marks are not published as the final mark is overseen by the external examiner and the 
+finalised mark is released only after the examinations are fully processed. However, we will be happy to go through those marks with you 
+after the results have been processed and finalised. Please take this opportunity to clarify any queries you have. This is a good way to ensure that 
+you are attempting the work in a suitable manner.
+
+
+For the programming assignments, a \textbf{marking scheme will be published with the specification of the assignment}. Be sure that you are aware of the marking scheme. 
+If there are marks going for a particular part, and you haven't attempted that part, we cannot give you any marks for that part ! . 
+\begin{quote}
+ \textbf{\textit{Always make it easy for the examiner to give you marks.}}
+\end{quote}
+
+If you wish to seek an extension for an assignment, you must do so in sufficient time (i.e. not on the day of submission, and not 
+when the submission date has passed) and must provide a valid reason for seeking the extension. 
+
+
+\section{Academic Integrity}
+The School of Science and Computing  at South Eastern Technological University (Waterford) are  committed to maintaining the highest standards of academic integrity. 
+Academic misconduct, including, but not limited to, cheating may result in a mark of zero for the assignment as well as disciplinary action.
+ Additional sanctions may by imposed depending on the case. You are responsible for ensuring that you do not get involved in cheating of any kind. 
+ 
+ With regard to programming submissions, an interview is mandatory and is part of your assignment mark (as a multiplier). 
+ The interview is to ascertain that the work is your own and that you fully understand how it works, in its elemental parts and how it works together. 
+ 
+We  will always encourage you to work in collaboration with your fellow classmates. But please be careful not to cross the line between collaboration and using someone else's work. 
+ Please do not be tempted to use this route. 
+ It is too risky and the penalty can affect your academic future. 
+\pagebreak
+\section{Engagement in the module and Time Management}
+ Part of active engagement  for any module involves a degree of time management. 
+ As part of this module we will be asking you to complete exercises, between class times. 
+ Each week, for instance you will be asked to complete labs (available on Moodle) and upload your attempt on Moodle.
+ These will not be graded but, by engaging in these tasks at the time, you will be in a better position to 
+ understand the next part of the module and to attempt the assignments. We will approach the module in a step-by-step manner, 
+ so opting out at any part will make it more difficult for you to keep up. 
+ This is where time management will come in - you need to be careful to ensure that you keep a balance between modules. 
+ 
+ Always ask questions, either in class or during labs.  One way to help to stay engaged is to ask questions if you don't understand what is going on. 
+ Remember, when you are asking questions:
+ \begin{enumerate}
+    \item Just the process of asking a question means that you have learned something. 
+    \item If you cannot understand, in most cases, you are not the only one. 
+    \item Asking questions means that the pace of the lecture/ labs will suit you better - we will always keep going if there are no questions! 
+ \end{enumerate}
+
+ \section{Netiquette and Decorum}
+ In all of our asynchronous discussions online, e.g. Slack,  it is important that we foster a supportive, safe, 
+ and engaging learning environment.
+ You are free to express your views and ideas as long as your words or action do not demean, intimidate, or intend
+  to violate the rights and dignities of others. Hate speech is not acceptable and may result in disciplinary action. 
+  Hate speech includes words or actions that threaten or target the safety and liberties of an individual or group.
+   
+  \subsection{Netiquette}
+ The word netiquette is a combination of ’net’ (from internet) and ’etiquette’. It means respecting other users’ views and displaying 
+ courtesy when posting your views to online discussion groups (see \href{https://www.bbc.co.uk/webwise/guides/about-netiquette}{BBC})
+ \begin{itemize}
+    \item Remember that there is a human being on the other end of your communication
+    \item Treat that human being with respect
+    \item Do not post a message that you would not be willing to communicate in a face to face environment.
+    \item Keep it courteous
+    \item Be kind and professional:  Online communication comes with a level of anonymity that doesn’t exist when you’re talking to someone face-to-face. 
+    Sometimes this leads people to behave rudely when they disagree with one another. Online students probably don’t have the complete anonymity that comes with using a screen name, but you could still fall prey to treating someone poorly because of the distance between screens. Make a point to be kind and respectful in your comments—even if you disagree with someone.
+    \item Extend your good nature online: The digital world is an increasingly important part of our lives. We should be our best selves there too. The manners our parents taught us apply everywhere.
+    \item Promote healthy discussions: 
+    To get the most out of online forums, a useful netiquette guideline is to promote healthy discussion. You can help your online community by posing questions, sharing experiences, providing positive feedback, asking follow-up questions, and referring to information sources. Being a positive contributor is better than being a critic, troll or other negative force.
+    \item  Respect others as equals:
+    Show a little respect and humility online. Think – that 'idiot' who wrote the opinion you completely disagree with is a human being. They have feelings and experiences. They may believe passionately in what they're saying. And they may actually be right.
+    Even if you're feeling dismissive or knowledgeable or whatever, inject respect into your writing. That's just being fair to others.
+    \item You're here to learn and contribute, not dictate: 
+    While we all like to think that our opinion matters, you'll gain more from internet forums by approaching them as a learner.
+    When everyone is trying to express their view rather than hearing from others, forums become noisy, crowded with posts, and disjointed. 
+    A more polite and effective path is to adopt a listening mode. Read posts carefully, ask questions, and write something only if it offers value to the discussion.
+    \item Read first:
+    Take some time to read through each of the previous discussion post responses before writing your own response. Remember, discussions can move fairly quickly so it’s important to absorb all of the information before crafting your reply. Building upon a classmate’s thought or attempting to add something new to the conversation will show your instructor you’ve been paying attention.
+    \item Remember, your words are permanent: Be careful with what you post online. Once it's out there, you may not be able to get it back.
+    \item Make your point in a nice way:
+    Write in a way to get the kind of reaction you want. A little thoughtfulness, strategy and netiquette can go a long way in online discussions.
+    Your first draft of an online post is unlikely to be your best. Are you disagreeing with someone in a flippant way? Have you misinterpreted what they really meant? Will you put people off with the tone of your text.
+    \item Pause before you post:
+    It's worth taking a moment to reflect before hitting the send button.
+    When you're using a computer, you're normally clicking, and scrolling and typing all over the place. Most things are done quickly. But one time when it's important to slow down is when you're about to post something online for all the world to see. Pause and reflect for a second. Are you truly comfortable with what you're sending?
+    \item Respect the opinion of your classmates: 
+    If you feel the need to disagree, do so respectfully and acknowledge the valid points in your classmate's argument. If you reply to a question from a classmate, make sure your answer is accurate!
+    \item Forgive and Forget: 
+    If you’re offended by something another student says online, keep in mind that you may have misunderstood their intentions. Give them the benefit of the doubt.
+   
+ \end{itemize}
+\pagebreak
+ \section{Organizing yourself}
+ \subsection{Organisation of your labtop/cloud storage}
+
+\begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
+    \centering
+    \includegraphics[width=0.2\textwidth]{img/chaos.jpg}
+\end{wrapfigure}
+
+It is really important to organise where you store all your college files/ software.
+If you don’t do this early, chaos will ensue! The best way is to organise your files from the start. 
+You can use this file structure on Cloud (One-Drive?) and mirror it on your labtop so you can 'backup' easily by dragging the full folder from one to the other. 
+  
+\subsection{Suggested Filing System}
+
+A suggested filing system is given in Fig \ref{filing}. Note you could have subfolders named Week 1 etc. whichever is most appropriate. 
+
+Having set this up, you will get used to using this very quickly and you will save a lot of time in the long run. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=.6\textwidth]{img/filing.png}
+\caption{Suggested Filing System}
+\label{filing}
+\end{figure}
+\newcolumntype{a}{>{\columncolor{green}}c}
+\newcolumntype{b}{>{\columncolor{red}}c}
+\colorlet{shade1}{green!80!red}
+\colorlet{shade2}{green!70!red}
+\colorlet{shade3}{red!90!red}
+\colorlet{shade4}{red!80!red}
+\colorlet{shade5}{yellow!20!red}
+
+\begin{table}[h]
+\begin{center}
+    \begin{tabular}{ | m{15em}   |m{15em}  }    
+        %  \begin{tabular}{ |>{\columncolor[gray]{0.8}} m{10em} |b m{10em}|  } 
+        \hline
+    \rowcolor{shade3}
+    \cellcolor{shade1}DO's & DON'T's   \\ 
+     \hline  
+     \rowcolor{shade4}
+     \cellcolor{shade2} Set up the folder structure and continue to use it 
+     & Set up and use it ‘an odd time’
+     \\  
+     \rowcolor{shade4}
+     \hline
+     \cellcolor{shade2}Set up ‘favourites’ folder in Explorer/Finder for your ‘college’ subfolder
+ & Use Downloads or Desktop as the root folder for ‘college  \\ 
+ \hline
+     \rowcolor{shade4}
+     \cellcolor{shade2}Store data (weekly homework, etc.) using this structure
+     &Mix up data and programs in college folder
+     \\ 
+     \hline
+     \rowcolor{shade4}
+     \cellcolor{shade2}Store your software (e.g. Processing) in another folder e.g. /dev
+ &   \\ 
+     \hline
+ 
+  
+    \end{tabular}
+    \caption{Do's and Don't's of Filing Systems}
+    \label{tab:dos-donts}
+\end{center}
+\end{table}
+\subsection{Time Management}
+There are many software tools available to help you managing yout time and in general helping you to plan your work. Have a look around - see if any of them suit you. You should \textbf{not} have to pay for one there are plenty Open Source versions and in some cases there are free educational versions (always check this out)
+A couple that are worth mentioning: 
+\begin{itemize}
+    \item \href{https://trello.com/en}{\textbf{Trello}} - this is  great Project Management Tool - it's Open Source and used in the software industry
+    \item \href{https://www.notion.so/}{\textbf{Notion}} is a commercial product but free to students - you just need to register. There are many templates available for your use - it's well worth a look. 
+    \item A notebook! 
+\end{itemize}
+Learning how to organise your material/ thoughts / ideas is a very good use of your time. It may be one of the most valuable things you learn. 
+\vspace{2cm}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.8\textwidth]{img/good-luck.jpeg}
+
+    \end{figure}
+
+Finally, we wish you all the best of luck with this module and all of your university experience,
+\vspace{1cm}
+
+Siobh\'an and Mair\'ead.
+
+\end{document}

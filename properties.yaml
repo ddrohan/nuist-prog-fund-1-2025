@@ -1,0 +1,22 @@
+credits        : Mr. Dave Drohan, SETU (IRELAND 2025)
+# moodle         : https://moodle.wit.ie/course/view.php?id=211179
+zulip          : https://pf1-nuist-2025.zulipchat.com
+zoom           : https://setu-ie.zoom.us/j/3651652842
+ignorepin      : 2020
+auth           : 0
+ignore         :
+- topic00-assignments
+- topic00-asample-mcq
+#- topic00-intro-to-module
+#- topic01-intro-to-processing
+- topic02-animate-your-drawings
+- topic03-if-stmt-and-events
+- topic04-iteration-for-while
+- topic05-methods
+- topic06-methods-and-classes
+- topic07-assignment-studio
+- topic07-IntelliJ-and-Spot
+- topic08-Shop-and-IO
+- topic09-primitive-arrays
+- topic10-shop-arrays
+- topic99-supplementary-materials

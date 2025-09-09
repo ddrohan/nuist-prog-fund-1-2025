@@ -1,0 +1,26 @@
+Did you manage to install processing successfully? 
+Answer 1: Yes
+Answer 2: No
+Answer 3: Still working on it
+
+
+Which step are you currently on in your labs? Don't worry AT ALL if you haven't progressed from an early step. It's day 1 :-) ( Multiple Choice)
+Answer 1: 01
+Answer 2: 02
+Answer 3: 03
+Answer 4: 04
+Answer 5: 05
+Answer 6: 06
+Answer 7: 07
+Answer 8: Exercises
+Answer 9: Challenges
+Answer 10: Checking Solutions
+
+
+Tick ALL that apply to your labs this week? Don't worry AT ALL if you aren't ticking many of the boxes...remember it's week 1 :-) ( Multiple Choice)
+Answer 1: Finished steps 01-07
+Answer 2: Finished exercises
+Answer 3: Finished challenges
+Answer 4: Submitted to Moodle
+Answer 5: Compared my work against the solutions
+Answer 6: Did the self-test exercises in Moodle

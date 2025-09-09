@@ -1,0 +1,38 @@
+
+% You can use \raisebox to adjust the vertical positioning of the image:
+
+\documentclass{memoir}
+\usepackage[demo]{graphicx}% delete the demo option in your actual code
+\usepackage{enumitem}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{table}[h!]
+     \begin{center}
+     \begin{tabular}{ c  p{5cm}  p{5cm}  }
+     \toprule
+      my.Lboro & Advantages & Disadvantages \\ 
+    \cmidrule(r){1-1}\cmidrule(lr){2-2}\cmidrule(l){3-3}
+     \raisebox{-\totalheight}{\includegraphics[width=0.3\textwidth, height=60mm]{img/mairead.png}}
+      & 
+      \begin{itemize}[topsep=0pt]
+      \item Accessibility
+      \item Up to date information
+      \item Fulfil students needs and wants \ldots
+      \end{itemize}
+      & 
+      \begin{itemize}[topsep=0pt]
+      \item Accessibility
+      \item Up to date information
+      \item Fulfil students needs and wants \ldots
+      \end{itemize}
+      \\ \bottomrule
+      
+      \end{tabular}
+      \caption{my.Lboro Analysis}
+      \label{tbl:myLboro}
+      \end{center}
+      \end{table}
+
+\end{document}
